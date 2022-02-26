@@ -18,7 +18,7 @@ module StatusPage
       end
 
       def check!
-        time = Time.now.to_s(:db)
+        time = Time.now.to_fs(:db)
 
         redis = ::Redis.new(url: config.url)
         redis.set(key, time)
