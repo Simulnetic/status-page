@@ -1,0 +1,13 @@
+name: status-page
+id: ari:cloud:compass:d926c5b6-8500-4cc0-ae8b-e0b5c4afa665:component/c0bc404a-5512-475b-abf0-d55726924092/a7c4fd12-c6f1-4b38-a6c3-041cdf02c4ff
+description: Mountable status page for your Rails application, to check Cache, Redis, Sidekiq ...
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links: []
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
